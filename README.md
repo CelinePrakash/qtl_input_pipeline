@@ -1,7 +1,9 @@
 # QTL input pipeline
-A Pipeline to prepare Restriction site-associated DNA sequencing (RAD-seq) data for quantitative trait locus (QTL) analysis
+A Pipeline to prepare Restriction site-associated DNA sequencing (RAD-seq) data for quantitative trait locus (QTL) analysis.
 
-Please refer to the included [PDF](docs/QTL_Input_Pipeline_Documentation.pdf) for full documentation of function, input and output.
+Raw fastq files from a mapping family are processed into a genotype matrix that can be imported into R/qtl.
+
+Please refer to the included [PDF](docs/QTL_Input_Pipeline_Documentation.pdf) for full documentation of function, description of parameters and the input and output files.
 
 ## Requirements
 * python > 2.7
